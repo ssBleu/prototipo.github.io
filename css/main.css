@@ -4,8 +4,11 @@
     background-color: rgb(241, 248, 244);
 }
 
+
+
 html {
     color: #222;
+
     font-size: 1em;
     line-height: 1.4;
 }
@@ -59,6 +62,20 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.slider {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slide {
+    display: none;
+}
+
+
 
 .logos.columns {
     text-align: center;
@@ -114,6 +131,10 @@ section.destacada .contenido {
     width: 100%;
     position: absolute;
     z-index: 20;
+}
+
+.top-bar-section ul li>a:hover {
+    background-color: rgb(13, 57, 57) !important;
 }
 
 section.destacada .contenido h1 {
